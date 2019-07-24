@@ -1,10 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Container } from 'react-bootstrap'
+import NewTodo from './NewTodo'
 
 const HomePage = () => (
-  <div>
+  <Container>
     <h1>Home</h1>
-  </div>
+    <NewTodo />
+  </Container>
 )
 
 export default HomePage
